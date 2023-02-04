@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: Roboto;
+}
+body {
+    height: 100vh;
+    background: url(bg3.jpg) no-repeat center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.profile-card {
+    width: 400px;
+    text-align: center;
+    border-radius: 8px;
+    overflow: hidden;
+    opacity: 90%;
+}
+.header {
+    background-color: white;
+    padding: 40px 40px 0px;
+    animation: 3s 1;
+}
+.pic {
+    display: inline-block;
+    margin: auto;
+}
+.pic img {
+    display: block;
+    height: 125px;
+    width: auto;
+    border-radius: 50%;
+}
+.name {
+    padding: 10px;
+    font-size: 35px;
+    font-weight: 300;
+}
+.name strong {
+    font-weight: 400;
+}
+.bio {
+    padding-bottom: 15px;
+    font-weight: 300;
+    border-bottom: 1px solid #444444;
+}
+.socials {
+    justify-content: center;
+    padding: 15px;
+    margin: 5px 0 0;
+}
+.socials a{
+    color: gray;
+    width: 30px;
+    height: 30px;
+    font-size: 20px;
+    transition: .2s linear;
+}
+.socials a:hover{
+    color: black;
+}
