@@ -1,13 +1,15 @@
 import React from "react";
 import Link from "next/link";
 import { GoChevronDown } from "react-icons/go";
+import bgimg from "../public/assets/images/background.jpg";
 
 const Hero = ({ heading, message, block }) => {
   return (
     <div
       className="hero min-h-screen bg-fixed"
       // mb-12
-      style={{ backgroundImage: `url("https://picsum.photos/2000/2000")` }}
+      // style={{ backgroundImage: `url("https://picsum.photos/2000/2000")` }}
+      style={{ backgroundImage: `url(${bgimg.src})` }}
     >
       <div className="hero-overlay bg-opacity-60"></div>
       <div className="hero-content text-center text-neutral-content">
