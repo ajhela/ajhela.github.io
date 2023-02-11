@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 /* https://www.pinterest.com/pin/625367098278821543/ */
+html,
+body {
+  overflow-x: hidden;
+}
 html {
   scroll-behavior: smooth;
 }
@@ -18,10 +22,10 @@ html {
 /* .custom-img {
   background-image: url("https://placeimg.com/1000/800/arch");
 } */
-/* html,
+html,
 body {
   padding: 0;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-} */
+}

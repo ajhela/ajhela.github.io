@@ -167,7 +167,7 @@ const Navbar = () => {
     // </div>
 
     ///////////////////////////////////////////////////////////////////////
-    <div className={`navbar fixed   z-30 duration-500 `}>
+    <div className={`navbar fixed z-30 duration-500 `}>
       {/* ${blur} */}
       <div className="navbar-start">
         <Link href="/">
