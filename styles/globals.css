@@ -1,26 +1,27 @@
-html,
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* https://www.pinterest.com/pin/625367098278821543/ */
+html {
+  scroll-behavior: smooth;
+}
+#about {
+  scroll-behavior: smooth;
+}
+
+@layer base {
+  body {
+    @apply bg-[#363636] text-[#d6d6d6] tracking-wide;
+  }
+}
+
+/* .custom-img {
+  background-image: url("https://placeimg.com/1000/800/arch");
+} */
+/* html,
 body {
   padding: 0;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-}
-
-a {
-  color: inherit;
-  text-decoration: none;
-}
-
-* {
-  box-sizing: border-box;
-}
-
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
-  body {
-    color: white;
-    background: black;
-  }
-}
+} */
